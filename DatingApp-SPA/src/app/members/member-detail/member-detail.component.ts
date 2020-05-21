@@ -50,13 +50,7 @@ export class MemberDetailComponent implements OnInit {
     }
   ];
 
-   this.galleryImages = [
-    {
-      small: 'https://randomuser.me/api/portraits/women/24.jpg',
-      medium: 'https://randomuser.me/api/portraits/women/24.jpg',
-      big: 'https://randomuser.me/api/portraits/women/24.jpg'
-    },
-   ];
+   this.galleryImages = this.getImages();
   }
 
   getImages() {
